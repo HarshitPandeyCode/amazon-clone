@@ -1,4 +1,4 @@
 # amazon-clone
 My clone repository.
 <br>
-Author- Harshit Pandey
+Author- Harshit Pandey(coder)
