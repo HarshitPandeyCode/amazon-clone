@@ -2,8 +2,11 @@
     margin:0px;
     font-family: Arial;
     border:border-box;
+    font-size: 14px;
     
 }
+
+/* Navbar */
 
 .navbar {
 
@@ -12,7 +15,7 @@
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .border{
     border:2px solid transparent;  
@@ -57,7 +60,7 @@
 .nav-search {
     display: flex;
     background-color: rgb(252, 25, 203);
-    width: 620px;
+    width: 50%;
     height: 40px;
     border-radius: 4px;
     border:none;
@@ -66,7 +69,7 @@
     
 }
 .nav-search:hover{
-    border:none;
+    border : 2px solid orange;
 }
 .search-select{
     width: 50px;
@@ -80,6 +83,9 @@
     width: 100%;
     font-size: 1rem;
     border: none;
+}
+.search-bar:focus{
+    outline: none;
 }
 .search-icon{
    width: 45px;
@@ -113,4 +119,80 @@
     align-items: center;
     justify-content: center;
     font-size: 0.85rem;
+}
+/* Box 5 */
+span{
+    font-size: 0.7rem;
+    
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Box 6 */
+
+.nav-cart {
+    font-size: 0.85rem;
+}
+
+.nav-cart i {
+   font-size: 35px;
+   font-weight: 700;
+}
+
+/* Panel */
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color : white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+/* Panel All */
+
+/* Panel Options */
+
+.panel-ops {
+width: 93%;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-right: 15px;
+    
+}
+
+/* Hero Section */
+
+.hero-section{
+    display: flex;
+    background-image: url(hero_image.jpg);
+    height: 330px;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-start;
+}
+/* hero Message */
+
+.hero-msg{
+    display: flex;
+    justify-content: center;
+    height:40px;align-items: center;
+    color: black;
+    text-align: center;
+    background-color: #f5f6f6;
+    font-size: 0.85rem;
+    width: 97%;
+    margin-top: 250px;
+}
+
+.hero-msg a{
+    color: #007185;
+    text-decoration: none;
 }
